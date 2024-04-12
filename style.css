@@ -1,0 +1,104 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+:root{
+    --bg:rgb(7, 7, 16);
+    --font:rgb(161, 161, 161);
+}
+.body{
+    background-color: var(--bg);
+    color: white;
+}
+.kepala{
+    text-align: center;
+}
+.head{
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--font);
+}
+.head p{
+    margin-right: 3px;
+}
+
+/*  */
+.accordion-button p{
+    color: var(--font);
+}
+.wrapper{
+    background-color: rgb(11, 11, 31);
+    width: 100%;
+}
+.kontainer-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px solid var(--font);
+}
+.gambar2{
+    display: flex;
+    align-items: center;
+}
+.gambar2 img{
+    margin-right: 10px;
+    width: 20px;
+}
+.gambar3{
+    display: flex;
+    align-items: center;
+}
+.gambar3 img{
+    width: 30px;
+}
+
+/* SKILLS */
+.kontainer2{
+    width: 100%;
+    padding: 20px 10px;
+}
+.kontainer2 h2{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.kontainer2 .place1 .place2 .place3 .place4 .place5{
+    color: var(--font);
+}
+.place1 .placeholder{
+    background: linear-gradient(to right, rgb(30, 13, 116), rgb(22, 169, 228));
+}
+.place2 .placeholder{
+    background: linear-gradient(to right, rgb(30, 13, 116), rgb(22, 169, 228));
+}
+.place3 .placeholder{
+    background: linear-gradient(to right, rgb(30, 13, 116), rgb(22, 169, 228));
+}
+.place4 .placeholder{
+    background: linear-gradient(to right, rgb(30, 13, 116), rgb(22, 169, 228));
+}
+.place5 .placeholder{
+    background: linear-gradient(to right, rgb(30, 13, 116), rgb(22, 169, 228));
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .gambar2 img{
+        width: 13px;
+    }
+    .gambar3 img{
+        width: 25px;
+    }
+    .kontainer2 p{
+        font-size: 12px;
+    }
+    .head{
+        font-size: 13px;
+    }
+}
